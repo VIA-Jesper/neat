@@ -14,6 +14,7 @@ while not done:
     print(env.action_space.sample())
 
     env.render()
+
 env.close()
 
 
